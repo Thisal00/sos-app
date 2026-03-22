@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "926112065238",
+    "project_id": "familysafetyapp-af7cc",
+    "storage_bucket": "familysafetyapp-af7cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926112065238:android:84967bf21e9da2b58e8b77",
+        "android_client_info": {
+          "package_name": "com.example.sos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926112065238-5f7835s0nr5e4hl5qbcjo6tmdo5n7s8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sos",
+            "certificate_hash": "f74c74ab6cdef67a17c4803a607284d8f2690a53"
+          }
+        },
+        {
+          "client_id": "926112065238-lolpgsk9qgg13occct942jta0ctk2k8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRODE0rlMythg9JW71u4HFi_o45FY0ngk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926112065238-lolpgsk9qgg13occct942jta0ctk2k8t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "926112065238-mtc3ss0cfcnj4rtri4r0qrgrf68hjik1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sos"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

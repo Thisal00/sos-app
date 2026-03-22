@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "familysafetyapp-af7cc",
+          "appId": "1:926112065238:android:84967bf21e9da2b58e8b77",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "familysafetyapp-af7cc",
+          "configurations": {
+            "android": "1:926112065238:android:84967bf21e9da2b58e8b77",
+            "ios": "1:926112065238:ios:fbeaae4b15b7e50f8e8b77",
+            "macos": "1:926112065238:ios:fbeaae4b15b7e50f8e8b77",
+            "web": "1:926112065238:web:6f9443ea412a3d278e8b77",
+            "windows": "1:926112065238:web:dd51536a864dfd888e8b77"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
