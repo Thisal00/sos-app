@@ -7,7 +7,7 @@ class FamilyCard extends StatelessWidget {
 
   const FamilyCard({
     super.key,
-    required this.familyCode, //Constructor erro   end  
+    required this.familyCode, // Constructor erro   end  to
   });
 
   @override
