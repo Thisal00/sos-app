@@ -251,4 +251,3 @@ class LocationService {
     for (var doc in old.docs) doc.reference.delete();
   }
 }
-
