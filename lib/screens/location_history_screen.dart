@@ -446,3 +446,4 @@ class _LocationHistoryScreenState extends State<LocationHistoryScreen> {
     );
   }
 }
+
