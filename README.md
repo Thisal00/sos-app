@@ -1,4 +1,4 @@
-# 🚨 SOS - Family Safety App
+#  SOS - Family Safety App
 
 **Keep your loved ones safe with real-time location tracking and emergency alerts**
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [About SOS](#-about-sos)  
 2. [Key Features](#-key-features)  
@@ -22,7 +22,7 @@
 
 ---
 
-## 📱 About SOS
+##  About SOS
 
 ### What is SOS?
 
@@ -32,18 +32,18 @@ Think of it as a **safety net for your family** - it combines emergency alerting
 
 ### Why Use SOS?
 
-- ✅ **Emergency Response** - One tap to alert your family in an emergency  
-- ✅ **Location Tracking** - Always know where your family members are  
-- ✅ **Instant Communication** - Message your family without leaving the app  
-- ✅ **Smart Alerts** - Get notified when family members enter or leave safe areas  
-- ✅ **Shared Tools** - Track tasks, manage finances, and share memories  
-- ✅ **Easy to Use** - Simple design that works for all ages  
+-  **Emergency Response** - One tap to alert your family in an emergency  
+-  **Location Tracking** - Always know where your family members are  
+-  **Instant Communication** - Message your family without leaving the app  
+-  **Smart Alerts** - Get notified when family members enter or leave safe areas  
+-  **Shared Tools** - Track tasks, manage finances, and share memories  
+-  **Easy to Use** - Simple design that works for all ages  
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🚨 Safety & Emergency Features
+###  Safety & Emergency Features
 
 #### **SOS Button - Emergency Alert**
 Send an instant emergency alert to your family with one tap.
@@ -85,7 +85,7 @@ Access helpful resources and support options during emergencies.
 
 ---
 
-### 👨‍👩‍👧 Family Management
+### Family Management
 
 #### **Create a Family**
 Start your own family group in the app.
@@ -140,7 +140,7 @@ Get alerts exactly when you need them.
 
 ---
 
-### 🛠️ Utility & Shared Tools
+###  Utility & Shared Tools
 
 #### **Family Tasks & Calendar**
 Organize family activities and to-do lists.
@@ -180,7 +180,7 @@ Share clothing items and outfit ideas.
 
 ---
 
-### 🔒 Privacy & Convenience Features
+###  Privacy & Convenience Features
 
 #### **Ghost Mode**
 Temporarily hide your location from family.
@@ -206,7 +206,7 @@ Show your phone's battery percentage to family.
 
 ---
 
-## 🎯 How to Use
+## How to Use
 
 ### Getting Started (First Time)
 
@@ -234,7 +234,7 @@ The app will ask for permission to:
 - **Contacts** - Allow access to your phone contacts
 - **Phone** - Allow the fake call feature (Android)
 
-✅ **Tip:** Enable all permissions for the best experience. You can change them later in your phone's Settings.
+ **Tip:** Enable all permissions for the best experience. You can change them later in your phone's Settings.
 
 ---
 
@@ -259,7 +259,7 @@ The app will ask for permission to:
 2. From the home screen, tap **Join Family**
 3. Enter the **6-letter Invite Code**
 4. Tap **Join**
-5. You're now part of the family! 👨‍👩‍👧
+5. You're now part of the family! 
 
 ---
 
@@ -303,10 +303,10 @@ The app will ask for permission to:
 5. Google Maps link is included so they can find you
 
 #### **What Your Family Sees**
-- ✅ Notification: "🚨 [Your Name] needs help!"
-- ✅ Your exact location on the map (red marker)
-- ✅ Clickable Google Maps link
-- ✅ They can call, text, or come help you
+-  Notification: " [Your Name] needs help!"
+-  Your exact location on the map (red marker)
+-  Clickable Google Maps link
+-  They can call, text, or come help you
 
 #### **Canceling an SOS Alert**
 1. Tap the **Cancel** button that appears
@@ -314,10 +314,10 @@ The app will ask for permission to:
 3. Your location goes back to normal (blue marker)
 
 #### **In a Real Emergency**
-- ✅ Send SOS (one tap)
-- ✅ Call 911 or emergency services
-- ✅ Tell your family via the app
-- ✅ Enable Ghost Mode if you need to hide
+-  Send SOS (one tap)
+-  Call 911 or emergency services
+-  Tell your family via the app
+-  Enable Ghost Mode if you need to hide
 
 ---
 
@@ -351,14 +351,14 @@ Now everyone will get an alert when someone leaves or enters this zone! 🚨
 
 ### **Permissions Needed**
 The app requires these phone permissions to work:
-- 📍 **Location** - Track and share your location
-- 🔔 **Notifications** - Send alerts and messages
-- 📞 **Contacts** - Find trusted contacts
-- 📱 **Phone** - Make fake calls for safety
+-  **Location** - Track and share your location
+-  **Notifications** - Send alerts and messages
+-  **Contacts** - Find trusted contacts
+-  **Phone** - Make fake calls for safety
 
 ---
 
-## 📥 Installation & Setup
+##  Installation & Setup
 
 ### **Quick Setup (5 Minutes)**
 
@@ -386,11 +386,11 @@ The app requires these phone permissions to work:
    - Send first message
    - Share your invite code
 
-✅ **That's it! You're ready to go.**
+ **That's it! You're ready to go.**
 
 ---
 
-## ❓ Frequently Asked Questions
+##  Frequently Asked Questions
 
 ### **Family & Invites**
 
@@ -479,7 +479,7 @@ A: Yes. Go to **Settings** > **Notifications** > Toggle on/off what you want.
 
 ---
 
-## 🔒 Privacy & Security
+##  Privacy & Security
 
 ### **Your Data is Safe**
 
@@ -493,23 +493,23 @@ SOS takes your privacy seriously. Here's how we protect you:
 
 #### **What Data Do We Collect?**
 We collect minimum information needed for the app to work:
-- 📍 **Location** - Your GPS coordinates (so family can find you)
-- 📱 **Device Info** - Phone type, OS version (for compatibility)
-- 🔋 **Battery Level** - To alert family if your battery is low
-- 📨 **Messages** - Chat messages between family (local storage)
-- 📋 **Profile Info** - Name, email, phone number (you provide)
+-  **Location** - Your GPS coordinates (so family can find you)
+-  **Device Info** - Phone type, OS version (for compatibility)
+-  **Battery Level** - To alert family if your battery is low
+-  **Messages** - Chat messages between family (local storage)
+-  **Profile Info** - Name, email, phone number (you provide)
 
 We **DO NOT** collect:
-- ❌ Your browsing history
-- ❌ Photos from your gallery (unless you upload)
-- ❌ Your contacts list (except emergency contacts you add)
-- ❌ Call logs or SMS messages
+-  Your browsing history
+-  Photos from your gallery (unless you upload)
+-  Your contacts list (except emergency contacts you add)
+-  Call logs or SMS messages
 
 #### **Who Can See Your Location?**
-- ✅ Only family members in your family group
-- ✅ Not public, not on the internet
-- ✅ Not shared with third parties
-- ✅ Not sold to advertisers
+-  Only family members in your family group
+-  Not public, not on the internet
+-  Not shared with third parties
+-  Not sold to advertisers
 
 #### **How to Control Your Privacy**
 
@@ -532,19 +532,19 @@ We **DO NOT** collect:
 
 ### **Security Best Practices**
 
-📌 **Protect Your SOS Account:**
+ **Protect Your SOS Account:**
 1. Use a **strong password** (mix of letters, numbers, symbols)
 2. Don't share your password with anyone
 3. Don't share your family invite code publicly
 4. Log out on shared devices
 
-📌 **Protect Your Location:**
+ **Protect Your Location:**
 1. Only share invite codes with trusted family
 2. Use Ghost Mode when needed
 3. Review family members occasionally
 4. Remove old accounts that you no longer use
 
-📌 **Stay Safe in Emergencies:**
+ **Stay Safe in Emergencies:**
 1. Keep your phone charged (battery alerts help)
 2. Check battery level of family members
 3. Share a safe word with family for emergencies
@@ -566,7 +566,7 @@ We **DO NOT** collect:
 5. **Restart your phone:** Turn off and back on
 6. **Check internet:** Make sure you have Wi-Fi or mobile data
 
-✅ **Note:** Location updates every 5-30 minutes—it won't update constantly.
+ **Note:** Location updates every 5-30 minutes—it won't update constantly.
 
 ---
 
@@ -582,7 +582,7 @@ We **DO NOT** collect:
 5. **Check internet:** Need Wi-Fi or mobile data for notifications
 6. **Reinstall app:** Delete and reinstall SOS
 
-✅ **Note:** You need internet for push notifications to work.
+ **Note:** You need internet for push notifications to work.
 
 ---
 
@@ -598,7 +598,7 @@ We **DO NOT** collect:
 5. **Refresh the map:** Pull down to refresh, wait 30 seconds
 6. **Check internet:** Make sure everyone has data/Wi-Fi
 
-✅ **Note:** Location updates take a few minutes to appear.
+ **Note:** Location updates take a few minutes to appear.
 
 ---
 
@@ -615,7 +615,7 @@ We **DO NOT** collect:
 6. **Update OS:** Install latest Android/iOS updates
 7. **Contact support:** If issue continues, reach out to support
 
-✅ **Note:** Clearing cache won't delete your account or data.
+**Note:** Clearing cache won't delete your account or data.
 
 ---
 
@@ -631,11 +631,11 @@ We **DO NOT** collect:
 5. **Close age apps:** Close other apps running in background
 6. **Restart phone:** Turn off and back on
 
-✅ **Note:** Location tracking naturally uses battery. It's normal.
+**Note:** Location tracking naturally uses battery. It's normal.
 
 ---
 
-## 📞 Support & Feedback
+##  Support & Feedback
 
 ### **Need Help?**
 
@@ -649,7 +649,7 @@ We're here to help! Here's how to contact us:
 5. Send message to support team
 
 #### **Email Support**
-📧 **support@sosapp.com**
+ **support@sosapp.com**
 
 Please include:
 - What's the problem?
@@ -687,18 +687,15 @@ Join our community and discuss with other users:
 
 ### **Contact Information**
 
-| Method | Contact |
-|--------|---------|
-| 📧 Email | support@sosapp.com |
-| 🌐 Website | www.sosapp.com |
-| 💬 Chat | In-app support chat |
-| 🐛 Bugs | bugs@sosapp.com |
+
+Email | thisalchathnuka@gmail.com |
+
 
 ---
 
-## 📝 Final Tips
+##  Final Tips
 
-✅ **Quick Tips for Getting the Most Out of SOS:**
+ **Quick Tips for Getting the Most Out of SOS:**
 
 1. **Share your family code** with all family members immediately
 2. **Enable all permissions** for the best experience
@@ -713,7 +710,7 @@ Join our community and discuss with other users:
 
 ---
 
-## 🎉 You're All Set!
+##  You're All Set!
 
 You now have everything you need to use **SOS** safely and effectively. 
 
@@ -725,10 +722,8 @@ Start by creating or joining a family, and stay connected with the people you lo
 
 <div align="center">
 
-**Made with ❤️ for family safety**
+**Made with group 02 for family safety**
 
-Questions? Visit our [support page](https://www.sosapp.com/support) or email support@sosapp.com
 
-[Privacy Policy](https://www.sosapp.com/privacy) • [Terms of Service](https://www.sosapp.com/terms)
 
 </div>
