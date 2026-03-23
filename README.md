@@ -115,7 +115,7 @@ If you're part of multiple families, easily switch between them.
 
 ---
 
-### 💬 Communication & Alerts
+###  Communication & Alerts
 
 #### **Family Chat**
 Message with your family anytime, anywhere.
@@ -335,7 +335,7 @@ Now everyone will get an alert when someone leaves or enters this zone! 🚨
 
 ---
 
-## 💻 System Requirements
+##  System Requirements
 
 ### **For iPhone Users**
 - **iOS Version:** 12.0 or newer
@@ -552,7 +552,7 @@ We **DO NOT** collect:
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### **Location Not Updating**
 
