@@ -41,7 +41,7 @@ class _SOSButtonState extends State<SOSButton> {
   }
 
   // ========================================================
-  // 🔥 1. FOREGROUND SHAKE DETECTOR (UPDATED: Harder & 5 Shakes)
+  //  FOREGROUND SHAKE DETECTOR (UPDATED: Harder & 5 Shakes)
   // ========================================================
   void _startForegroundShakeDetection() {
     _shakeSubscription = accelerometerEvents.listen((event) async {
@@ -52,23 +52,23 @@ class _SOSButtonState extends State<SOSButton> {
       double gZ = event.z / 9.80665;
       double gForce = sqrt(gX * gX + gY * gY + gZ * gZ);
 
-      // 🔥 FIX: 3.5G වලට වඩා වැඩි වෙන්න ඕනේ (සාමාන්‍යයෙන් ඇවිදිනකොට 1.5G - 2.0G වගේ එන්නේ)
+      //  FIX: 3.5G 
       if (gForce > 3.5) {
         int now = DateTime.now().millisecondsSinceEpoch;
 
-        // පාරවල් 5ක් ගහන්න ඕන නිසා, එක පාරකුත් අනිත් පාරත් අතර කාලය 400ms කළා
+        // 5 times shake  time  is  have  a 400 s
         if (now - _lastShakeTimestamp > 400) {
           _shakeCount++;
           _lastShakeTimestamp = now;
 
-          // 🔥 FIX: පාරවල් 5ක් අනිවාර්යයෙන් හොලවන්න ඕනේ
+          // 5 times  shake system
           if (_shakeCount >= 5) {
             _shakeCount = 0;
             _handleShakeSOS();
           }
         }
       } else {
-        // තත්පර 4ක් ඇතුළත පාරවල් 5ක් හෙලෙව්වෙ නැත්තම් බොරු එකක් කියලා හිතලා Reset කරනවා
+        // not to  4  time  shake  it  reset
         if (DateTime.now().millisecondsSinceEpoch - _lastShakeTimestamp >
             4000) {
           _shakeCount = 0;
