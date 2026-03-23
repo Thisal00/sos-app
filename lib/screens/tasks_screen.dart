@@ -58,7 +58,7 @@ class _TasksScreenState extends State<TasksScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA), 
+      backgroundColor: const Color(0xFFF5F7FA), //bg  view
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
@@ -123,7 +123,7 @@ class _TasksScreenState extends State<TasksScreen>
           .collection('families')
           .doc(widget.familyCode)
           .collection('tasks')
-          .orderBy('dueDate', descending: false) 
+          .orderBy('dueDate', descending: false) // ළඟම දින උඩට
           .snapshots(),
       builder: (context, snapshot) {
         if (!snapshot.hasData)

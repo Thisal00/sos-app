@@ -338,4 +338,3 @@ class _VaultItemCardState extends State<VaultItemCard> {
     );
   }
 }
-

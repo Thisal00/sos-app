@@ -320,4 +320,3 @@ class _FamilyVaultScreenState extends State<FamilyVaultScreen> {
     );
   }
 }
-

@@ -144,4 +144,3 @@ class SecurityLogScreen extends StatelessWidget {
     );
   }
 }
-

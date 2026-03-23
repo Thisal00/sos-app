@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+// ඔයාගේ Main Screen එක තියෙන තැන හරියට import කරගන්න
 // import 'main_screen.dart';
 
 class BatteryOptimizationScreen extends StatefulWidget {
@@ -22,7 +23,7 @@ class _BatteryOptimizationScreenState extends State<BatteryOptimizationScreen> {
     _checkPermissions();
   }
 
-  // Check which permissions are currently granted
+  // දැනට තියෙන Permissions මොනවද කියලා Check කරනවා
   Future<void> _checkPermissions() async {
     bool locGranted = await Permission.locationAlways.isGranted;
     bool batIgnored = await Permission.ignoreBatteryOptimizations.isGranted;
@@ -35,9 +36,9 @@ class _BatteryOptimizationScreenState extends State<BatteryOptimizationScreen> {
     }
   }
 
-  // 1. Function to request Location Permission
+  // 1. Location Permission ඉල්ලන Function එක
   Future<void> _requestLocation() async {
-    // On Android 11+, must request Foreground first
+    // Android 11+ වල මුලින්ම Foreground ඉල්ලලා ඉන්න ඕනේ
     var status = await Permission.location.request();
     if (status.isGranted) {
       var alwaysStatus = await Permission.locationAlways.request();
@@ -47,10 +48,10 @@ class _BatteryOptimizationScreenState extends State<BatteryOptimizationScreen> {
     } else {
       await openAppSettings();
     }
-    _checkPermissions(); // Check again after requesting
+    _checkPermissions(); // ආයේ චෙක් කරනවා
   }
 
-  // 2. Function to request Battery Permission
+  // 2. Battery Permission ඉල්ලන Function එක
   Future<void> _requestBattery() async {
     var status = await Permission.ignoreBatteryOptimizations.request();
     setState(() {
@@ -72,7 +73,7 @@ class _BatteryOptimizationScreenState extends State<BatteryOptimizationScreen> {
     _checkPermissions();
   }
 
-  // Function to proceed if all permissions are granted
+  // සේරම හරි නම් ඉස්සරහට යන Function එක
   void _finishSetup() async {
     if (_isLocationGranted && _isBatteryIgnored) {
       SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -85,7 +86,7 @@ class _BatteryOptimizationScreenState extends State<BatteryOptimizationScreen> {
             backgroundColor: Colors.green,
           ),
         );
-        // Navigate to Main Screen from here (uncomment and set up as needed)
+        // මෙතනින් Main Screen එකට යන්න (කමෙන්ට් එක අයින් කරලා හරියට දෙන්න)
         // Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const MainScreen()));
         Navigator.pop(context);
       }
@@ -188,7 +189,7 @@ class _BatteryOptimizationScreenState extends State<BatteryOptimizationScreen> {
     );
   }
 
-  // Card widget to request permission
+  // Permission අහන ලස්සන Card එකක්
   Widget _buildPermissionCard({
     required String title,
     required String subtitle,
