@@ -78,7 +78,7 @@ class _FamilyCalendarScreenState extends State<FamilyCalendarScreen> {
     }
   }
 
-  // save event
+  
   Future<void> _addEvent() async {
     if (_titleController.text.isEmpty || _timeController.text.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
