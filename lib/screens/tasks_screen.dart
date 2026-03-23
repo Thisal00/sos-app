@@ -58,7 +58,7 @@ class _TasksScreenState extends State<TasksScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF5F7FA), //bg  view
+      backgroundColor: const Color(0xFFF5F7FA), 
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
